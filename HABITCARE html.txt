@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HabitCare+ - Tu bienestar en tus manos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white text-center py-6">
+        <h1 class="text-3xl font-bold">Transforma tu salud con HabitCare+</h1>
+        <p class="text-lg">Tu plataforma de salud preventiva personalizada impulsada por IA</p>
+    </header>
+    
+    <section class="max-w-4xl mx-auto text-center my-10 p-6 bg-white shadow-lg rounded-lg">
+        <h2 class="text-2xl font-semibold mb-4">Empieza gratis y mejora tu bienestar hoy</h2>
+        <p class="text-gray-600 mb-6">Recibe recomendaciones personalizadas y lleva un control inteligente de tus hábitos de salud.</p>
+        <a href="#registro" class="bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-bold hover:bg-blue-700">Regístrate gratis</a>
+    </section>
+    
+    <section class="max-w-4xl mx-auto my-10">
+        <h2 class="text-center text-2xl font-semibold mb-6">¿Por qué elegir HabitCare+?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div class="p-4 bg-white shadow rounded-lg">
+                <h3 class="text-lg font-bold">📊 Análisis Inteligente</h3>
+                <p class="text-gray-600">Nuestra IA analiza tus hábitos y te ofrece recomendaciones personalizadas.</p>
+            </div>
+            <div class="p-4 bg-white shadow rounded-lg">
+                <h3 class="text-lg font-bold">⌚ Integración con Dispositivos</h3>
+                <p class="text-gray-600">Sincroniza con tu smartwatch o apps favoritas para un seguimiento preciso.</p>
+            </div>
+            <div class="p-4 bg-white shadow rounded-lg">
+                <h3 class="text-lg font-bold">🔔 Recordatorios Inteligentes</h3>
+                <p class="text-gray-600">Recibe alertas personalizadas para mantenerte en el camino correcto.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="max-w-4xl mx-auto text-center my-10 p-6 bg-blue-50 rounded-lg" id="registro">
+        <h2 class="text-2xl font-semibold mb-4">Empieza hoy mismo</h2>
+        <p class="text-gray-700 mb-4">Regístrate gratis y accede a tu plan de salud personalizado.</p>
+        <form class="max-w-md mx-auto">
+            <input type="email" placeholder="Tu correo electrónico" class="w-full p-3 border rounded-lg mb-4">
+            <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg text-lg font-bold hover:bg-blue-700">¡Únete ahora!</button>
+        </form>
+    </section>
+    
+    <footer class="text-center text-gray-600 py-6">
+        <p>&copy; 2025 HabitCare+. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
